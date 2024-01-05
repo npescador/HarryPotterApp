@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC02DE652B1213BF00B47B26 /* CharactersRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE642B1213BF00B47B26 /* CharactersRemoteService.swift */; };
+		BC02DE672B1213CF00B47B26 /* MockCharactersRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE662B1213CF00B47B26 /* MockCharactersRemoteService.swift */; };
+		BC02DE692B1213E300B47B26 /* LiveCharactersRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE682B1213E300B47B26 /* LiveCharactersRemoteService.swift */; };
+		BC02DE6B2B12146600B47B26 /* PotionsRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE6A2B12146600B47B26 /* PotionsRemoteService.swift */; };
+		BC02DE6D2B12148D00B47B26 /* MockPotionsRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE6C2B12148D00B47B26 /* MockPotionsRemoteService.swift */; };
+		BC02DE6F2B1214CD00B47B26 /* LivePotionsRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE6E2B1214CD00B47B26 /* LivePotionsRemoteService.swift */; };
+		BC02DE712B12150D00B47B26 /* SpellsRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE702B12150C00B47B26 /* SpellsRemoteService.swift */; };
+		BC02DE732B12153100B47B26 /* MockSpellsRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE722B12153100B47B26 /* MockSpellsRemoteService.swift */; };
+		BC02DE752B12156900B47B26 /* LiveSpellsRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE742B12156900B47B26 /* LiveSpellsRemoteService.swift */; };
+		BC02DE772B1236E500B47B26 /* PotionsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE762B1236E500B47B26 /* PotionsRepository.swift */; };
+		BC02DE792B1236F500B47B26 /* SpellsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE782B1236F500B47B26 /* SpellsRepository.swift */; };
+		BC02DE7B2B12370200B47B26 /* CharactersRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE7A2B12370200B47B26 /* CharactersRespository.swift */; };
+		BC02DE7F2B123A5400B47B26 /* SpellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE7E2B123A5400B47B26 /* SpellsView.swift */; };
+		BC02DE812B123A6500B47B26 /* SpellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE802B123A6500B47B26 /* SpellViewModel.swift */; };
+		BC02DE832B123A6E00B47B26 /* SpellDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE822B123A6E00B47B26 /* SpellDetailView.swift */; };
+		BC02DE872B123A8B00B47B26 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE862B123A8B00B47B26 /* CharactersView.swift */; };
+		BC02DE892B123A9400B47B26 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE882B123A9400B47B26 /* CharacterViewModel.swift */; };
+		BC02DE8B2B123A9F00B47B26 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE8A2B123A9F00B47B26 /* CharacterDetailView.swift */; };
+		BC02DE8F2B123ABC00B47B26 /* PotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE8E2B123ABC00B47B26 /* PotionsView.swift */; };
+		BC02DE912B123AC900B47B26 /* PotionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE902B123AC900B47B26 /* PotionsViewModel.swift */; };
+		BC02DE932B123AD400B47B26 /* PotionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE922B123AD400B47B26 /* PotionDetailView.swift */; };
+		BC02DE952B12413100B47B26 /* Potion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE942B12413100B47B26 /* Potion.swift */; };
+		BC02DE972B12440500B47B26 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE962B12440500B47B26 /* Spell.swift */; };
+		BC02DE992B12455B00B47B26 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE982B12455B00B47B26 /* Character.swift */; };
+		BC02DE9C2B12602D00B47B26 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BC02DE9B2B12602D00B47B26 /* Kingfisher */; };
+		BC02DE9E2B12605E00B47B26 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02DE9D2B12605E00B47B26 /* RemoteImageView.swift */; };
+		BC0C1A7A2B2A5F5900015E0E /* AuthenticationFirebaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C1A792B2A5F5900015E0E /* AuthenticationFirebaseRepository.swift */; };
+		BC0C1A7C2B2A608800015E0E /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C1A7B2B2A608800015E0E /* AuthenticationViewModel.swift */; };
+		BC0D59C42B44882100ABB20D /* CharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D59C32B44882100ABB20D /* CharacterDetailViewModel.swift */; };
+		BC3CEF232B1CCEE3003B379A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3CEF222B1CCEE3003B379A /* Launch Screen.storyboard */; };
+		BC3CEF282B1CF7C6003B379A /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CEF272B1CF7C6003B379A /* BookRowView.swift */; };
+		BC3CEF2A2B1CFF88003B379A /* MoviewRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CEF292B1CFF88003B379A /* MoviewRowView.swift */; };
+		BC428ECC2B07D8F5001AC2B7 /* Harry_Potter_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428ECB2B07D8F5001AC2B7 /* Harry_Potter_AppApp.swift */; };
+		BC428ECE2B07D8F5001AC2B7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428ECD2B07D8F5001AC2B7 /* HomeView.swift */; };
+		BC428ED02B07D8F9001AC2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC428ECF2B07D8F9001AC2B7 /* Assets.xcassets */; };
+		BC428ED32B07D8F9001AC2B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC428ED22B07D8F9001AC2B7 /* Preview Assets.xcassets */; };
+		BC428EE02B07D942001AC2B7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EDF2B07D942001AC2B7 /* Coordinator.swift */; };
+		BC428EE22B07DA07001AC2B7 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EE12B07DA07001AC2B7 /* NetworkClient.swift */; };
+		BC428EE42B07DA21001AC2B7 /* NetworkClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EE32B07DA21001AC2B7 /* NetworkClientError.swift */; };
+		BC428EE62B07DA49001AC2B7 /* URLSessionNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EE52B07DA49001AC2B7 /* URLSessionNetworkClient.swift */; };
+		BC428EF02B07DBAA001AC2B7 /* BooksRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EEF2B07DBAA001AC2B7 /* BooksRemoteService.swift */; };
+		BC428EF22B07DBBA001AC2B7 /* LiveBooksRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EF12B07DBBA001AC2B7 /* LiveBooksRemoteService.swift */; };
+		BC428EF42B07DBC7001AC2B7 /* MockBooksRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EF32B07DBC7001AC2B7 /* MockBooksRemoteService.swift */; };
+		BC428EF62B07DC09001AC2B7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EF52B07DC09001AC2B7 /* Book.swift */; };
+		BC428EF82B07DDB7001AC2B7 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EF72B07DDB7001AC2B7 /* ApiResponse.swift */; };
+		BC428EFB2B07E227001AC2B7 /* ButtonMainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428EFA2B07E227001AC2B7 /* ButtonMainMenuView.swift */; };
+		BC428F042B07E600001AC2B7 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428F032B07E600001AC2B7 /* BooksView.swift */; };
+		BC428F062B07E617001AC2B7 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428F052B07E617001AC2B7 /* BooksViewModel.swift */; };
+		BC428F082B07E63E001AC2B7 /* BooksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC428F072B07E63E001AC2B7 /* BooksRepository.swift */; };
+		BC5266FC2B260160007467AD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5266FB2B260160007467AD /* LoginView.swift */; };
+		BC5266FE2B260171007467AD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5266FD2B260171007467AD /* RegisterView.swift */; };
+		BC6122DC2B2334B9009DA40F /* PotionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122DB2B2334B9009DA40F /* PotionRowView.swift */; };
+		BC6122DE2B23386D009DA40F /* SpellRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122DD2B23386D009DA40F /* SpellRowView.swift */; };
+		BC6122E02B2340A0009DA40F /* CharacterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122DF2B2340A0009DA40F /* CharacterRowView.swift */; };
+		BC6122E42B23605E009DA40F /* UserDefaultsMovieLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122E32B23605E009DA40F /* UserDefaultsMovieLocalService.swift */; };
+		BC6122E62B236076009DA40F /* MovieLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122E52B236076009DA40F /* MovieLocalService.swift */; };
+		BC6122ED2B236AAA009DA40F /* MovieFavourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122EC2B236AAA009DA40F /* MovieFavourite.swift */; };
+		BC6122F02B236B20009DA40F /* FavouritesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122EF2B236B20009DA40F /* FavouritesState.swift */; };
+		BC6122F22B237E2D009DA40F /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6122F12B237E2D009DA40F /* MovieDetailViewModel.swift */; };
+		BC7475DD2B238FB000C9FB34 /* DynamicIslandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7475DC2B238FB000C9FB34 /* DynamicIslandService.swift */; };
+		BC7475DF2B2390A500C9FB34 /* LiveDynamicIslandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7475DE2B2390A500C9FB34 /* LiveDynamicIslandService.swift */; };
+		BC7475E12B2391D300C9FB34 /* DynamicIslandAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7475E02B2391D300C9FB34 /* DynamicIslandAttributes.swift */; };
+		BC7475E92B23946300C9FB34 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7475E82B23946300C9FB34 /* WidgetKit.framework */; };
+		BC7475EB2B23946300C9FB34 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7475EA2B23946300C9FB34 /* SwiftUI.framework */; };
+		BC7475F02B23946300C9FB34 /* MyExtensionLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7475EF2B23946300C9FB34 /* MyExtensionLiveActivity.swift */; };
+		BC7475F42B23946300C9FB34 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7475F32B23946300C9FB34 /* AppIntent.swift */; };
+		BC7475F62B23946600C9FB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7475F52B23946600C9FB34 /* Assets.xcassets */; };
+		BC7475FA2B23946600C9FB34 /* MyExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BC7475E62B23946200C9FB34 /* MyExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC7475FF2B23962400C9FB34 /* DynamicIslandAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7475E02B2391D300C9FB34 /* DynamicIslandAttributes.swift */; };
+		BC76524A2B0D5B6C0048F332 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7652492B0D5B6C0048F332 /* BookDetailView.swift */; };
+		BC76524D2B0D5D5B0048F332 /* MoviesRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76524C2B0D5D5B0048F332 /* MoviesRemoteService.swift */; };
+		BC76524F2B0D5DA00048F332 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76524E2B0D5DA00048F332 /* Movie.swift */; };
+		BC7652512B0D60E20048F332 /* MockMovieRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7652502B0D60E20048F332 /* MockMovieRemoteService.swift */; };
+		BC7652532B0D61270048F332 /* LiveMoviesRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7652522B0D61270048F332 /* LiveMoviesRemoteService.swift */; };
+		BC7652552B0D621F0048F332 /* MoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7652542B0D621F0048F332 /* MoviesRepository.swift */; };
+		BC7652592B0D62810048F332 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7652582B0D62810048F332 /* MoviesView.swift */; };
+		BC76525B2B0D628B0048F332 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76525A2B0D628B0048F332 /* MoviesViewModel.swift */; };
+		BC76525D2B0D629D0048F332 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76525C2B0D629D0048F332 /* MovieDetailView.swift */; };
+		BC7652622B0D6D410048F332 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = BC7652612B0D6D410048F332 /* YouTubePlayerKit */; };
+		BC8642802B25C6AB00F72732 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86427F2B25C6AB00F72732 /* AuthenticationView.swift */; };
+		BCA7C00D2B231B0C00120205 /* UiNotificationFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA7C00C2B231B0C00120205 /* UiNotificationFeedbackService.swift */; };
+		BCA7C00F2B231CBD00120205 /* LiveUiNotificationFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA7C00E2B231CBD00120205 /* LiveUiNotificationFeedbackService.swift */; };
+		BCA7C0112B231D5600120205 /* UiNotificationFeedbackRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA7C0102B231D5600120205 /* UiNotificationFeedbackRepository.swift */; };
+		BCBF59EA2B2919C400C5449A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BCBF59E92B2919C400C5449A /* FirebaseAnalytics */; };
+		BCBF59EC2B2919C400C5449A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BCBF59EB2B2919C400C5449A /* FirebaseAnalyticsSwift */; };
+		BCBF59EE2B291A2100C5449A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCBF59ED2B291A2100C5449A /* GoogleService-Info.plist */; };
+		BCBF59F02B291CBB00C5449A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BCBF59EF2B291CBB00C5449A /* FirebaseAuth */; };
+		BCD00E7A2B2A5BA1000BD351 /* AuthenticationFireBaseSerrvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD00E792B2A5BA1000BD351 /* AuthenticationFireBaseSerrvice.swift */; };
+		BCD00E7D2B2A5C80000BD351 /* LiveAuthenticationFirebaseRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD00E7C2B2A5C80000BD351 /* LiveAuthenticationFirebaseRemoteService.swift */; };
+		BCF247432B3704DB005F0DF6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF247422B3704DB005F0DF6 /* StringExtensions.swift */; };
+		BCF2474C2B3705FD005F0DF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF2474E2B3705FD005F0DF6 /* Localizable.strings */; };
+		BCF882592B2DFFE300E299C7 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF882582B2DFFE300E299C7 /* EntryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC7475F82B23946600C9FB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC428EC02B07D8F5001AC2B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC7475E52B23946200C9FB34;
+			remoteInfo = MyExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC7475FE2B23946600C9FB34 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BC7475FA2B23946600C9FB34 /* MyExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC02DE642B1213BF00B47B26 /* CharactersRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE662B1213CF00B47B26 /* MockCharactersRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCharactersRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE682B1213E300B47B26 /* LiveCharactersRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCharactersRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE6A2B12146600B47B26 /* PotionsRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotionsRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE6C2B12148D00B47B26 /* MockPotionsRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPotionsRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE6E2B1214CD00B47B26 /* LivePotionsRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePotionsRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE702B12150C00B47B26 /* SpellsRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE722B12153100B47B26 /* MockSpellsRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSpellsRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE742B12156900B47B26 /* LiveSpellsRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSpellsRemoteService.swift; sourceTree = "<group>"; };
+		BC02DE762B1236E500B47B26 /* PotionsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotionsRepository.swift; sourceTree = "<group>"; };
+		BC02DE782B1236F500B47B26 /* SpellsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsRepository.swift; sourceTree = "<group>"; };
+		BC02DE7A2B12370200B47B26 /* CharactersRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRespository.swift; sourceTree = "<group>"; };
+		BC02DE7E2B123A5400B47B26 /* SpellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsView.swift; sourceTree = "<group>"; };
+		BC02DE802B123A6500B47B26 /* SpellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellViewModel.swift; sourceTree = "<group>"; };
+		BC02DE822B123A6E00B47B26 /* SpellDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellDetailView.swift; sourceTree = "<group>"; };
+		BC02DE862B123A8B00B47B26 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		BC02DE882B123A9400B47B26 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		BC02DE8A2B123A9F00B47B26 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		BC02DE8E2B123ABC00B47B26 /* PotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotionsView.swift; sourceTree = "<group>"; };
+		BC02DE902B123AC900B47B26 /* PotionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotionsViewModel.swift; sourceTree = "<group>"; };
+		BC02DE922B123AD400B47B26 /* PotionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotionDetailView.swift; sourceTree = "<group>"; };
+		BC02DE942B12413100B47B26 /* Potion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potion.swift; sourceTree = "<group>"; };
+		BC02DE962B12440500B47B26 /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		BC02DE982B12455B00B47B26 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BC02DE9D2B12605E00B47B26 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		BC0C1A792B2A5F5900015E0E /* AuthenticationFirebaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseRepository.swift; sourceTree = "<group>"; };
+		BC0C1A7B2B2A608800015E0E /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		BC0D59C32B44882100ABB20D /* CharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModel.swift; sourceTree = "<group>"; };
+		BC3CEF222B1CCEE3003B379A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BC3CEF272B1CF7C6003B379A /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
+		BC3CEF292B1CFF88003B379A /* MoviewRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewRowView.swift; sourceTree = "<group>"; };
+		BC428EC82B07D8F5001AC2B7 /* Harry Potter App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harry Potter App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC428ECB2B07D8F5001AC2B7 /* Harry_Potter_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harry_Potter_AppApp.swift; sourceTree = "<group>"; };
+		BC428ECD2B07D8F5001AC2B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC428ECF2B07D8F9001AC2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC428ED22B07D8F9001AC2B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC428EDF2B07D942001AC2B7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BC428EE12B07DA07001AC2B7 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		BC428EE32B07DA21001AC2B7 /* NetworkClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientError.swift; sourceTree = "<group>"; };
+		BC428EE52B07DA49001AC2B7 /* URLSessionNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionNetworkClient.swift; sourceTree = "<group>"; };
+		BC428EEF2B07DBAA001AC2B7 /* BooksRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRemoteService.swift; sourceTree = "<group>"; };
+		BC428EF12B07DBBA001AC2B7 /* LiveBooksRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveBooksRemoteService.swift; sourceTree = "<group>"; };
+		BC428EF32B07DBC7001AC2B7 /* MockBooksRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBooksRemoteService.swift; sourceTree = "<group>"; };
+		BC428EF52B07DC09001AC2B7 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		BC428EF72B07DDB7001AC2B7 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		BC428EFA2B07E227001AC2B7 /* ButtonMainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMainMenuView.swift; sourceTree = "<group>"; };
+		BC428F032B07E600001AC2B7 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		BC428F052B07E617001AC2B7 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		BC428F072B07E63E001AC2B7 /* BooksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRepository.swift; sourceTree = "<group>"; };
+		BC5266FB2B260160007467AD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BC5266FD2B260171007467AD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		BC6122DB2B2334B9009DA40F /* PotionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotionRowView.swift; sourceTree = "<group>"; };
+		BC6122DD2B23386D009DA40F /* SpellRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellRowView.swift; sourceTree = "<group>"; };
+		BC6122DF2B2340A0009DA40F /* CharacterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRowView.swift; sourceTree = "<group>"; };
+		BC6122E32B23605E009DA40F /* UserDefaultsMovieLocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsMovieLocalService.swift; sourceTree = "<group>"; };
+		BC6122E52B236076009DA40F /* MovieLocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLocalService.swift; sourceTree = "<group>"; };
+		BC6122EC2B236AAA009DA40F /* MovieFavourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFavourite.swift; sourceTree = "<group>"; };
+		BC6122EF2B236B20009DA40F /* FavouritesState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesState.swift; sourceTree = "<group>"; };
+		BC6122F12B237E2D009DA40F /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		BC6A5B362B1273250010A18B /* Harry-Potter-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Harry-Potter-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BC7475DC2B238FB000C9FB34 /* DynamicIslandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIslandService.swift; sourceTree = "<group>"; };
+		BC7475DE2B2390A500C9FB34 /* LiveDynamicIslandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDynamicIslandService.swift; sourceTree = "<group>"; };
+		BC7475E02B2391D300C9FB34 /* DynamicIslandAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIslandAttributes.swift; sourceTree = "<group>"; };
+		BC7475E62B23946200C9FB34 /* MyExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7475E82B23946300C9FB34 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		BC7475EA2B23946300C9FB34 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		BC7475EF2B23946300C9FB34 /* MyExtensionLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensionLiveActivity.swift; sourceTree = "<group>"; };
+		BC7475F32B23946300C9FB34 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		BC7475F52B23946600C9FB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC7475F72B23946600C9FB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7652492B0D5B6C0048F332 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		BC76524C2B0D5D5B0048F332 /* MoviesRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRemoteService.swift; sourceTree = "<group>"; };
+		BC76524E2B0D5DA00048F332 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BC7652502B0D60E20048F332 /* MockMovieRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovieRemoteService.swift; sourceTree = "<group>"; };
+		BC7652522B0D61270048F332 /* LiveMoviesRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMoviesRemoteService.swift; sourceTree = "<group>"; };
+		BC7652542B0D621F0048F332 /* MoviesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRepository.swift; sourceTree = "<group>"; };
+		BC7652582B0D62810048F332 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		BC76525A2B0D628B0048F332 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		BC76525C2B0D629D0048F332 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		BC86427F2B25C6AB00F72732 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		BCA7C00C2B231B0C00120205 /* UiNotificationFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiNotificationFeedbackService.swift; sourceTree = "<group>"; };
+		BCA7C00E2B231CBD00120205 /* LiveUiNotificationFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveUiNotificationFeedbackService.swift; sourceTree = "<group>"; };
+		BCA7C0102B231D5600120205 /* UiNotificationFeedbackRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiNotificationFeedbackRepository.swift; sourceTree = "<group>"; };
+		BCBF59ED2B291A2100C5449A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCD00E792B2A5BA1000BD351 /* AuthenticationFireBaseSerrvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFireBaseSerrvice.swift; sourceTree = "<group>"; };
+		BCD00E7C2B2A5C80000BD351 /* LiveAuthenticationFirebaseRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAuthenticationFirebaseRemoteService.swift; sourceTree = "<group>"; };
+		BCF247422B3704DB005F0DF6 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		BCF2474D2B3705FD005F0DF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCF2474F2B3706A7005F0DF6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCF882582B2DFFE300E299C7 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC428EC52B07D8F5001AC2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBF59EC2B2919C400C5449A /* FirebaseAnalyticsSwift in Frameworks */,
+				BCBF59F02B291CBB00C5449A /* FirebaseAuth in Frameworks */,
+				BC02DE9C2B12602D00B47B26 /* Kingfisher in Frameworks */,
+				BC7652622B0D6D410048F332 /* YouTubePlayerKit in Frameworks */,
+				BCBF59EA2B2919C400C5449A /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7475E32B23946200C9FB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7475EB2B23946300C9FB34 /* SwiftUI.framework in Frameworks */,
+				BC7475E92B23946300C9FB34 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC02DE612B12139800B47B26 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE642B1213BF00B47B26 /* CharactersRemoteService.swift */,
+				BC02DE662B1213CF00B47B26 /* MockCharactersRemoteService.swift */,
+				BC02DE682B1213E300B47B26 /* LiveCharactersRemoteService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		BC02DE622B12139E00B47B26 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE6A2B12146600B47B26 /* PotionsRemoteService.swift */,
+				BC02DE6C2B12148D00B47B26 /* MockPotionsRemoteService.swift */,
+				BC02DE6E2B1214CD00B47B26 /* LivePotionsRemoteService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		BC02DE632B1213A100B47B26 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE702B12150C00B47B26 /* SpellsRemoteService.swift */,
+				BC02DE722B12153100B47B26 /* MockSpellsRemoteService.swift */,
+				BC02DE742B12156900B47B26 /* LiveSpellsRemoteService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		BC02DE7C2B123A3000B47B26 /* SpellsView */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE7E2B123A5400B47B26 /* SpellsView.swift */,
+				BC02DE802B123A6500B47B26 /* SpellViewModel.swift */,
+				BC6122DD2B23386D009DA40F /* SpellRowView.swift */,
+			);
+			path = SpellsView;
+			sourceTree = "<group>";
+		};
+		BC02DE7D2B123A3C00B47B26 /* SpellDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE822B123A6E00B47B26 /* SpellDetailView.swift */,
+			);
+			path = SpellDetailView;
+			sourceTree = "<group>";
+		};
+		BC02DE842B123A7400B47B26 /* CharactersView */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE862B123A8B00B47B26 /* CharactersView.swift */,
+				BC02DE882B123A9400B47B26 /* CharacterViewModel.swift */,
+				BC6122DF2B2340A0009DA40F /* CharacterRowView.swift */,
+			);
+			path = CharactersView;
+			sourceTree = "<group>";
+		};
+		BC02DE852B123A7F00B47B26 /* CharacterDetailview */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE8A2B123A9F00B47B26 /* CharacterDetailView.swift */,
+				BC0D59C32B44882100ABB20D /* CharacterDetailViewModel.swift */,
+			);
+			path = CharacterDetailview;
+			sourceTree = "<group>";
+		};
+		BC02DE8C2B123AA700B47B26 /* PotionsView */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE8E2B123ABC00B47B26 /* PotionsView.swift */,
+				BC02DE902B123AC900B47B26 /* PotionsViewModel.swift */,
+				BC6122DB2B2334B9009DA40F /* PotionRowView.swift */,
+			);
+			path = PotionsView;
+			sourceTree = "<group>";
+		};
+		BC02DE8D2B123AAD00B47B26 /* PotionDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE922B123AD400B47B26 /* PotionDetailView.swift */,
+			);
+			path = PotionDetailView;
+			sourceTree = "<group>";
+		};
+		BC3CEF212B1CCEB7003B379A /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BC3CEF222B1CCEE3003B379A /* Launch Screen.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		BC428EBF2B07D8F5001AC2B7 = {
+			isa = PBXGroup;
+			children = (
+				BC428ECA2B07D8F5001AC2B7 /* Harry Potter App */,
+				BC7475EC2B23946300C9FB34 /* MyExtension */,
+				BC7475E72B23946300C9FB34 /* Frameworks */,
+				BC428EC92B07D8F5001AC2B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC428EC92B07D8F5001AC2B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC428EC82B07D8F5001AC2B7 /* Harry Potter App.app */,
+				BC7475E62B23946200C9FB34 /* MyExtensionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC428ECA2B07D8F5001AC2B7 /* Harry Potter App */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A5B362B1273250010A18B /* Harry-Potter-App-Info.plist */,
+				BCBF59ED2B291A2100C5449A /* GoogleService-Info.plist */,
+				BCF247412B3702DB005F0DF6 /* Resources */,
+				BC428ECB2B07D8F5001AC2B7 /* Harry_Potter_AppApp.swift */,
+				BC428EDF2B07D942001AC2B7 /* Coordinator.swift */,
+				BC428ECD2B07D8F5001AC2B7 /* HomeView.swift */,
+				BC428EF92B07E212001AC2B7 /* Components */,
+				BCF882582B2DFFE300E299C7 /* EntryView.swift */,
+				BC6122EE2B236ABC009DA40F /* Common */,
+				BC428EDE2B07D930001AC2B7 /* Extensions */,
+				BC428ED92B07D90A001AC2B7 /* Entities */,
+				BC428EDA2B07D911001AC2B7 /* Features */,
+				BC428EDC2B07D921001AC2B7 /* Data */,
+				BC428EDB2B07D917001AC2B7 /* NetworkClient */,
+				BC428ECF2B07D8F9001AC2B7 /* Assets.xcassets */,
+				BC428ED12B07D8F9001AC2B7 /* Preview Content */,
+			);
+			path = "Harry Potter App";
+			sourceTree = "<group>";
+		};
+		BC428ED12B07D8F9001AC2B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC428ED22B07D8F9001AC2B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC428ED92B07D90A001AC2B7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BC428EF52B07DC09001AC2B7 /* Book.swift */,
+				BC428EF72B07DDB7001AC2B7 /* ApiResponse.swift */,
+				BC76524E2B0D5DA00048F332 /* Movie.swift */,
+				BC6122EC2B236AAA009DA40F /* MovieFavourite.swift */,
+				BC02DE942B12413100B47B26 /* Potion.swift */,
+				BC02DE962B12440500B47B26 /* Spell.swift */,
+				BC02DE982B12455B00B47B26 /* Character.swift */,
+				BC7475E02B2391D300C9FB34 /* DynamicIslandAttributes.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		BC428EDA2B07D911001AC2B7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BC5266FA2B26014E007467AD /* Authentication */,
+				BC3CEF212B1CCEB7003B379A /* SplashScreen */,
+				BC428F002B07E5CE001AC2B7 /* Characters */,
+				BC428EFF2B07E5CB001AC2B7 /* Spells */,
+				BC428EFE2B07E5C4001AC2B7 /* Potions */,
+				BC428EFD2B07E5C0001AC2B7 /* Movies */,
+				BC428EFC2B07E5BB001AC2B7 /* Books */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BC428EDB2B07D917001AC2B7 /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				BC428EE12B07DA07001AC2B7 /* NetworkClient.swift */,
+				BC428EE32B07DA21001AC2B7 /* NetworkClientError.swift */,
+				BC428EE52B07DA49001AC2B7 /* URLSessionNetworkClient.swift */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		BC428EDC2B07D921001AC2B7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BC428EE82B07DAF2001AC2B7 /* Repositories */,
+				BC428EE72B07DAEC001AC2B7 /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BC428EDE2B07D930001AC2B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCF247422B3704DB005F0DF6 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC428EE72B07DAEC001AC2B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BCD00E7B2B2A5BB0000BD351 /* AuthenticationFirebase */,
+				BC7475DB2B238F8700C9FB34 /* DynamicIsland */,
+				BCA7C00B2B231ACC00120205 /* UINotificationFeedback */,
+				BC428EE92B07DB11001AC2B7 /* Books */,
+				BC428EEB2B07DB21001AC2B7 /* Characters */,
+				BC428EEA2B07DB19001AC2B7 /* Movies */,
+				BC428EED2B07DB30001AC2B7 /* Potions */,
+				BC428EEC2B07DB2A001AC2B7 /* Spells */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC428EE82B07DAF2001AC2B7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BC428F072B07E63E001AC2B7 /* BooksRepository.swift */,
+				BC7652542B0D621F0048F332 /* MoviesRepository.swift */,
+				BC02DE762B1236E500B47B26 /* PotionsRepository.swift */,
+				BC02DE782B1236F500B47B26 /* SpellsRepository.swift */,
+				BC02DE7A2B12370200B47B26 /* CharactersRespository.swift */,
+				BCA7C0102B231D5600120205 /* UiNotificationFeedbackRepository.swift */,
+				BC0C1A792B2A5F5900015E0E /* AuthenticationFirebaseRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		BC428EE92B07DB11001AC2B7 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				BC428EEE2B07DB8D001AC2B7 /* Remote */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		BC428EEA2B07DB19001AC2B7 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				BC6122E22B236027009DA40F /* Local */,
+				BC76524B2B0D5D330048F332 /* Remote */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		BC428EEB2B07DB21001AC2B7 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE612B12139800B47B26 /* Remote */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		BC428EEC2B07DB2A001AC2B7 /* Spells */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE632B1213A100B47B26 /* Remote */,
+			);
+			path = Spells;
+			sourceTree = "<group>";
+		};
+		BC428EED2B07DB30001AC2B7 /* Potions */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE622B12139E00B47B26 /* Remote */,
+			);
+			path = Potions;
+			sourceTree = "<group>";
+		};
+		BC428EEE2B07DB8D001AC2B7 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				BC428EEF2B07DBAA001AC2B7 /* BooksRemoteService.swift */,
+				BC428EF12B07DBBA001AC2B7 /* LiveBooksRemoteService.swift */,
+				BC428EF32B07DBC7001AC2B7 /* MockBooksRemoteService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		BC428EF92B07E212001AC2B7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC428EFA2B07E227001AC2B7 /* ButtonMainMenuView.swift */,
+				BC02DE9D2B12605E00B47B26 /* RemoteImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC428EFC2B07E5BB001AC2B7 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				BC428F022B07E5E0001AC2B7 /* BookDetailView */,
+				BC428F012B07E5D8001AC2B7 /* BooksView */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		BC428EFD2B07E5C0001AC2B7 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				BC7652572B0D626F0048F332 /* MoviesDetailView */,
+				BC7652562B0D62650048F332 /* MoviesView */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		BC428EFE2B07E5C4001AC2B7 /* Potions */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE8D2B123AAD00B47B26 /* PotionDetailView */,
+				BC02DE8C2B123AA700B47B26 /* PotionsView */,
+			);
+			path = Potions;
+			sourceTree = "<group>";
+		};
+		BC428EFF2B07E5CB001AC2B7 /* Spells */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE7D2B123A3C00B47B26 /* SpellDetailView */,
+				BC02DE7C2B123A3000B47B26 /* SpellsView */,
+			);
+			path = Spells;
+			sourceTree = "<group>";
+		};
+		BC428F002B07E5CE001AC2B7 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				BC02DE852B123A7F00B47B26 /* CharacterDetailview */,
+				BC02DE842B123A7400B47B26 /* CharactersView */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		BC428F012B07E5D8001AC2B7 /* BooksView */ = {
+			isa = PBXGroup;
+			children = (
+				BC428F032B07E600001AC2B7 /* BooksView.swift */,
+				BC428F052B07E617001AC2B7 /* BooksViewModel.swift */,
+				BC3CEF272B1CF7C6003B379A /* BookRowView.swift */,
+			);
+			path = BooksView;
+			sourceTree = "<group>";
+		};
+		BC428F022B07E5E0001AC2B7 /* BookDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BC7652492B0D5B6C0048F332 /* BookDetailView.swift */,
+			);
+			path = BookDetailView;
+			sourceTree = "<group>";
+		};
+		BC5266FA2B26014E007467AD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BC86427F2B25C6AB00F72732 /* AuthenticationView.swift */,
+				BC5266FB2B260160007467AD /* LoginView.swift */,
+				BC5266FD2B260171007467AD /* RegisterView.swift */,
+				BC0C1A7B2B2A608800015E0E /* AuthenticationViewModel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BC6122E22B236027009DA40F /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				BC6122E32B23605E009DA40F /* UserDefaultsMovieLocalService.swift */,
+				BC6122E52B236076009DA40F /* MovieLocalService.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		BC6122EE2B236ABC009DA40F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BC6122EF2B236B20009DA40F /* FavouritesState.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BC7475DB2B238F8700C9FB34 /* DynamicIsland */ = {
+			isa = PBXGroup;
+			children = (
+				BC7475DC2B238FB000C9FB34 /* DynamicIslandService.swift */,
+				BC7475DE2B2390A500C9FB34 /* LiveDynamicIslandService.swift */,
+			);
+			path = DynamicIsland;
+			sourceTree = "<group>";
+		};
+		BC7475E72B23946300C9FB34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7475E82B23946300C9FB34 /* WidgetKit.framework */,
+				BC7475EA2B23946300C9FB34 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC7475EC2B23946300C9FB34 /* MyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BC7475EF2B23946300C9FB34 /* MyExtensionLiveActivity.swift */,
+				BC7475F32B23946300C9FB34 /* AppIntent.swift */,
+				BC7475F52B23946600C9FB34 /* Assets.xcassets */,
+				BC7475F72B23946600C9FB34 /* Info.plist */,
+			);
+			path = MyExtension;
+			sourceTree = "<group>";
+		};
+		BC76524B2B0D5D330048F332 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				BC76524C2B0D5D5B0048F332 /* MoviesRemoteService.swift */,
+				BC7652502B0D60E20048F332 /* MockMovieRemoteService.swift */,
+				BC7652522B0D61270048F332 /* LiveMoviesRemoteService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		BC7652562B0D62650048F332 /* MoviesView */ = {
+			isa = PBXGroup;
+			children = (
+				BC7652582B0D62810048F332 /* MoviesView.swift */,
+				BC76525A2B0D628B0048F332 /* MoviesViewModel.swift */,
+				BC3CEF292B1CFF88003B379A /* MoviewRowView.swift */,
+			);
+			path = MoviesView;
+			sourceTree = "<group>";
+		};
+		BC7652572B0D626F0048F332 /* MoviesDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BC76525C2B0D629D0048F332 /* MovieDetailView.swift */,
+				BC6122F12B237E2D009DA40F /* MovieDetailViewModel.swift */,
+			);
+			path = MoviesDetailView;
+			sourceTree = "<group>";
+		};
+		BCA7C00B2B231ACC00120205 /* UINotificationFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7C00C2B231B0C00120205 /* UiNotificationFeedbackService.swift */,
+				BCA7C00E2B231CBD00120205 /* LiveUiNotificationFeedbackService.swift */,
+			);
+			path = UINotificationFeedback;
+			sourceTree = "<group>";
+		};
+		BCD00E7B2B2A5BB0000BD351 /* AuthenticationFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				BCD00E792B2A5BA1000BD351 /* AuthenticationFireBaseSerrvice.swift */,
+				BCD00E7C2B2A5C80000BD351 /* LiveAuthenticationFirebaseRemoteService.swift */,
+			);
+			path = AuthenticationFirebase;
+			sourceTree = "<group>";
+		};
+		BCF247412B3702DB005F0DF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCF2474E2B3705FD005F0DF6 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC428EC72B07D8F5001AC2B7 /* Harry Potter App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC428ED62B07D8F9001AC2B7 /* Build configuration list for PBXNativeTarget "Harry Potter App" */;
+			buildPhases = (
+				BC428EC42B07D8F5001AC2B7 /* Sources */,
+				BC428EC52B07D8F5001AC2B7 /* Frameworks */,
+				BC428EC62B07D8F5001AC2B7 /* Resources */,
+				BC7475FE2B23946600C9FB34 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7475F92B23946600C9FB34 /* PBXTargetDependency */,
+			);
+			name = "Harry Potter App";
+			packageProductDependencies = (
+				BC7652612B0D6D410048F332 /* YouTubePlayerKit */,
+				BC02DE9B2B12602D00B47B26 /* Kingfisher */,
+				BCBF59E92B2919C400C5449A /* FirebaseAnalytics */,
+				BCBF59EB2B2919C400C5449A /* FirebaseAnalyticsSwift */,
+				BCBF59EF2B291CBB00C5449A /* FirebaseAuth */,
+			);
+			productName = "Harry Potter App";
+			productReference = BC428EC82B07D8F5001AC2B7 /* Harry Potter App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC7475E52B23946200C9FB34 /* MyExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7475FB2B23946600C9FB34 /* Build configuration list for PBXNativeTarget "MyExtensionExtension" */;
+			buildPhases = (
+				BC7475E22B23946200C9FB34 /* Sources */,
+				BC7475E32B23946200C9FB34 /* Frameworks */,
+				BC7475E42B23946200C9FB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyExtensionExtension;
+			productName = MyExtensionExtension;
+			productReference = BC7475E62B23946200C9FB34 /* MyExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC428EC02B07D8F5001AC2B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BC428EC72B07D8F5001AC2B7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					BC7475E52B23946200C9FB34 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BC428EC32B07D8F5001AC2B7 /* Build configuration list for PBXProject "Harry Potter App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = BC428EBF2B07D8F5001AC2B7;
+			packageReferences = (
+				BC7652602B0D6D410048F332 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+				BC02DE9A2B12602D00B47B26 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				BCBF59E82B2919C400C5449A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BC428EC92B07D8F5001AC2B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC428EC72B07D8F5001AC2B7 /* Harry Potter App */,
+				BC7475E52B23946200C9FB34 /* MyExtensionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC428EC62B07D8F5001AC2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF2474C2B3705FD005F0DF6 /* Localizable.strings in Resources */,
+				BC428ED32B07D8F9001AC2B7 /* Preview Assets.xcassets in Resources */,
+				BCBF59EE2B291A2100C5449A /* GoogleService-Info.plist in Resources */,
+				BC3CEF232B1CCEE3003B379A /* Launch Screen.storyboard in Resources */,
+				BC428ED02B07D8F9001AC2B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7475E42B23946200C9FB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7475F62B23946600C9FB34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC428EC42B07D8F5001AC2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC428EFB2B07E227001AC2B7 /* ButtonMainMenuView.swift in Sources */,
+				BC6122ED2B236AAA009DA40F /* MovieFavourite.swift in Sources */,
+				BC7652552B0D621F0048F332 /* MoviesRepository.swift in Sources */,
+				BC428EF82B07DDB7001AC2B7 /* ApiResponse.swift in Sources */,
+				BC7475DD2B238FB000C9FB34 /* DynamicIslandService.swift in Sources */,
+				BC02DE8F2B123ABC00B47B26 /* PotionsView.swift in Sources */,
+				BCD00E7D2B2A5C80000BD351 /* LiveAuthenticationFirebaseRemoteService.swift in Sources */,
+				BC02DE8B2B123A9F00B47B26 /* CharacterDetailView.swift in Sources */,
+				BC02DE932B123AD400B47B26 /* PotionDetailView.swift in Sources */,
+				BC76524F2B0D5DA00048F332 /* Movie.swift in Sources */,
+				BC02DE692B1213E300B47B26 /* LiveCharactersRemoteService.swift in Sources */,
+				BC6122F02B236B20009DA40F /* FavouritesState.swift in Sources */,
+				BC428ECE2B07D8F5001AC2B7 /* HomeView.swift in Sources */,
+				BC02DE672B1213CF00B47B26 /* MockCharactersRemoteService.swift in Sources */,
+				BC0C1A7A2B2A5F5900015E0E /* AuthenticationFirebaseRepository.swift in Sources */,
+				BC428F062B07E617001AC2B7 /* BooksViewModel.swift in Sources */,
+				BCF882592B2DFFE300E299C7 /* EntryView.swift in Sources */,
+				BC02DE6D2B12148D00B47B26 /* MockPotionsRemoteService.swift in Sources */,
+				BC6122E02B2340A0009DA40F /* CharacterRowView.swift in Sources */,
+				BC02DE812B123A6500B47B26 /* SpellViewModel.swift in Sources */,
+				BCF247432B3704DB005F0DF6 /* StringExtensions.swift in Sources */,
+				BC02DE892B123A9400B47B26 /* CharacterViewModel.swift in Sources */,
+				BC76525D2B0D629D0048F332 /* MovieDetailView.swift in Sources */,
+				BC6122E62B236076009DA40F /* MovieLocalService.swift in Sources */,
+				BC428EE42B07DA21001AC2B7 /* NetworkClientError.swift in Sources */,
+				BC3CEF2A2B1CFF88003B379A /* MoviewRowView.swift in Sources */,
+				BC02DE792B1236F500B47B26 /* SpellsRepository.swift in Sources */,
+				BC02DE752B12156900B47B26 /* LiveSpellsRemoteService.swift in Sources */,
+				BC02DE7B2B12370200B47B26 /* CharactersRespository.swift in Sources */,
+				BC5266FE2B260171007467AD /* RegisterView.swift in Sources */,
+				BC428EF22B07DBBA001AC2B7 /* LiveBooksRemoteService.swift in Sources */,
+				BC428ECC2B07D8F5001AC2B7 /* Harry_Potter_AppApp.swift in Sources */,
+				BC428F082B07E63E001AC2B7 /* BooksRepository.swift in Sources */,
+				BCA7C00D2B231B0C00120205 /* UiNotificationFeedbackService.swift in Sources */,
+				BC02DE6F2B1214CD00B47B26 /* LivePotionsRemoteService.swift in Sources */,
+				BC8642802B25C6AB00F72732 /* AuthenticationView.swift in Sources */,
+				BC7652512B0D60E20048F332 /* MockMovieRemoteService.swift in Sources */,
+				BCD00E7A2B2A5BA1000BD351 /* AuthenticationFireBaseSerrvice.swift in Sources */,
+				BC02DE972B12440500B47B26 /* Spell.swift in Sources */,
+				BC02DE952B12413100B47B26 /* Potion.swift in Sources */,
+				BC76524A2B0D5B6C0048F332 /* BookDetailView.swift in Sources */,
+				BC02DE652B1213BF00B47B26 /* CharactersRemoteService.swift in Sources */,
+				BCA7C0112B231D5600120205 /* UiNotificationFeedbackRepository.swift in Sources */,
+				BC02DE732B12153100B47B26 /* MockSpellsRemoteService.swift in Sources */,
+				BC76525B2B0D628B0048F332 /* MoviesViewModel.swift in Sources */,
+				BC7475E12B2391D300C9FB34 /* DynamicIslandAttributes.swift in Sources */,
+				BC6122E42B23605E009DA40F /* UserDefaultsMovieLocalService.swift in Sources */,
+				BC428EE02B07D942001AC2B7 /* Coordinator.swift in Sources */,
+				BC7652592B0D62810048F332 /* MoviesView.swift in Sources */,
+				BC02DE872B123A8B00B47B26 /* CharactersView.swift in Sources */,
+				BC7652532B0D61270048F332 /* LiveMoviesRemoteService.swift in Sources */,
+				BC02DE832B123A6E00B47B26 /* SpellDetailView.swift in Sources */,
+				BC76524D2B0D5D5B0048F332 /* MoviesRemoteService.swift in Sources */,
+				BC6122DC2B2334B9009DA40F /* PotionRowView.swift in Sources */,
+				BC5266FC2B260160007467AD /* LoginView.swift in Sources */,
+				BC6122DE2B23386D009DA40F /* SpellRowView.swift in Sources */,
+				BC428EF42B07DBC7001AC2B7 /* MockBooksRemoteService.swift in Sources */,
+				BC0D59C42B44882100ABB20D /* CharacterDetailViewModel.swift in Sources */,
+				BC02DE712B12150D00B47B26 /* SpellsRemoteService.swift in Sources */,
+				BC02DE6B2B12146600B47B26 /* PotionsRemoteService.swift in Sources */,
+				BC3CEF282B1CF7C6003B379A /* BookRowView.swift in Sources */,
+				BCA7C00F2B231CBD00120205 /* LiveUiNotificationFeedbackService.swift in Sources */,
+				BC6122F22B237E2D009DA40F /* MovieDetailViewModel.swift in Sources */,
+				BC0C1A7C2B2A608800015E0E /* AuthenticationViewModel.swift in Sources */,
+				BC02DE992B12455B00B47B26 /* Character.swift in Sources */,
+				BC428EE62B07DA49001AC2B7 /* URLSessionNetworkClient.swift in Sources */,
+				BC02DE9E2B12605E00B47B26 /* RemoteImageView.swift in Sources */,
+				BC428EF02B07DBAA001AC2B7 /* BooksRemoteService.swift in Sources */,
+				BC02DE772B1236E500B47B26 /* PotionsRepository.swift in Sources */,
+				BC7475DF2B2390A500C9FB34 /* LiveDynamicIslandService.swift in Sources */,
+				BC428F042B07E600001AC2B7 /* BooksView.swift in Sources */,
+				BC02DE7F2B123A5400B47B26 /* SpellsView.swift in Sources */,
+				BC02DE912B123AC900B47B26 /* PotionsViewModel.swift in Sources */,
+				BC428EF62B07DC09001AC2B7 /* Book.swift in Sources */,
+				BC428EE22B07DA07001AC2B7 /* NetworkClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7475E22B23946200C9FB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7475F02B23946300C9FB34 /* MyExtensionLiveActivity.swift in Sources */,
+				BC7475FF2B23962400C9FB34 /* DynamicIslandAttributes.swift in Sources */,
+				BC7475F42B23946300C9FB34 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC7475F92B23946600C9FB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC7475E52B23946200C9FB34 /* MyExtensionExtension */;
+			targetProxy = BC7475F82B23946600C9FB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF2474E2B3705FD005F0DF6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF2474D2B3705FD005F0DF6 /* en */,
+				BCF2474F2B3706A7005F0DF6 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC428ED42B07D8F9001AC2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC428ED52B07D8F9001AC2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC428ED72B07D8F9001AC2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harry Potter App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Harry-Potter-App-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nacho-pescador.Harry-Potter-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC428ED82B07D8F9001AC2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harry Potter App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Harry-Potter-App-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nacho-pescador.Harry-Potter-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC7475FC2B23946600C9FB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nacho-pescador.Harry-Potter-App.MyExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC7475FD2B23946600C9FB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nacho-pescador.Harry-Potter-App.MyExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC428EC32B07D8F5001AC2B7 /* Build configuration list for PBXProject "Harry Potter App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC428ED42B07D8F9001AC2B7 /* Debug */,
+				BC428ED52B07D8F9001AC2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC428ED62B07D8F9001AC2B7 /* Build configuration list for PBXNativeTarget "Harry Potter App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC428ED72B07D8F9001AC2B7 /* Debug */,
+				BC428ED82B07D8F9001AC2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7475FB2B23946600C9FB34 /* Build configuration list for PBXNativeTarget "MyExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7475FC2B23946600C9FB34 /* Debug */,
+				BC7475FD2B23946600C9FB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC02DE9A2B12602D00B47B26 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+		BC7652602B0D6D410048F332 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+		BCBF59E82B2919C400C5449A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC02DE9B2B12602D00B47B26 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC02DE9A2B12602D00B47B26 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		BC7652612B0D6D410048F332 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC7652602B0D6D410048F332 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+		BCBF59E92B2919C400C5449A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCBF59E82B2919C400C5449A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BCBF59EB2B2919C400C5449A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCBF59E82B2919C400C5449A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		BCBF59EF2B291CBB00C5449A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCBF59E82B2919C400C5449A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC428EC02B07D8F5001AC2B7 /* Project object */;
+}

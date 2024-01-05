@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  Harry Potter App
+
+  Created by user240559 on 23/12/23.
+  
+*/
+
+// MARK: - Common strings
+"Harry-Potter" = "Harry Potter";
+"Close" = "Close";
+"Logout" = "Logout";
+"Unknown" = "Unknown";
+"Movies" = "Movies";
+"Books" = "Books";
+"Potions" = "Potions";
+"Spells" = "Spells";
+"Characters" = "Characters";
+"NA" = "N/A";
+"Effect %@" = "Effect: %@";
+"Email" = "Email";
+"Password" = "Password";
+"Free" = "Free";
+
+// MARK: - Authentication View
+"Signin" = "Sign in with your email";
+"RegisterNow" = "Do you have an account? Register now";
+
+// MARK: - Login View
+"Login" = "Login";
+
+
+// MARK: - Register View
+"Register" = "Register";
+
+// MARK: - Characters View
+"ShowFavourites" = "Show My Favorites";
+
+// MARK: - Character Detail View
+"Gender %@" = "Gender: %@";
+"Birth-year %@" = "Birth year: %@";
+"House %@" = "House: %@";
+
+
+// MARK: - Spell Detail View
+"Category %@" = "Category: %@";
+"Hand %@" = "Hand: %@";
+"Light %@" = "Light: %@";
+
+// MARK: - Potion Detail View
+"Characteristics %@" = "Characteristics: %@";
+"Difficulty %@" = "Difficulty: %@";
+"Time %@" = "Time: %@";
+
+// MARK: - Movie Detail View
+"Duration %@" = "Duration: %@";
+"Summary %@" = "Summary: %@";

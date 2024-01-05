@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCXyq5wx_jaOTcE5KHBdcOWBNsT--BJHwM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>912074403600</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>nacho-pescador.Harry-Potter-App</string>
+	<key>PROJECT_ID</key>
+	<string>harrypotterapp-d2b11</string>
+	<key>STORAGE_BUCKET</key>
+	<string>harrypotterapp-d2b11.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:912074403600:ios:dab5c223a4781a3159ff95</string>
+</dict>
+</plist>

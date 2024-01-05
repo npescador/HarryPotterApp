@@ -1,0 +1,57 @@
+/*
+  Localizable.strings
+  Harry Potter App
+
+  Created by user240559 on 23/12/23.
+  
+*/
+
+// MARK: - Common strings
+"Harry-Potter" = "Harry Potter";
+"Close" = "Cerrar";
+"Logout" = "Salir";
+"Unknown" = "Desconocido";
+"Movies" = "Películas";
+"Books" = "Libros";
+"Potions" = "Pociones";
+"Spells" = "Encatamientos";
+"Characters" = "Personajes";
+"NA" = "N/A";
+"Effect %@" = "Efectos: %@";
+"Email" = "Correo electrónico";
+"Password" = "Contraseña";
+"Free" = "Libre";
+
+// MARK: - Authentication View
+"Signin" = "Logueate con tu correo electrónico";
+"RegisterNow" = "¿No tienes cuenta? Registrate ya";
+
+// MARK: - Login View
+"Login" = "Entrar";
+
+
+// MARK: - Register View
+"Register" = "Registrarse";
+
+// MARK: - Characters View
+"ShowFavourites" = "Mostrar mis favoritos";
+
+// MARK: - Character Detail View
+"Gender %@" = "Sexo: %@";
+"Birth-year %@" = "Fecha de nacimiento: %@";
+"House %@" = "Casa: %@";
+
+
+// MARK: - Spell Detail View
+"Category %@" = "Categoría: %@";
+"Hand %@" = "Varita: %@";
+"Light %@" = "Luz: %@";
+
+// MARK: - Potion Detail View
+"Characteristics %@" = "Características: %@";
+"Difficulty %@" = "Dificultad: %@";
+"Time %@" = "Tiempo de preparación: %@";
+
+// MARK: - Movie Detail View
+"Duration %@" = "Duración: %@";
+"Summary %@" = "Sinópsis: %@";

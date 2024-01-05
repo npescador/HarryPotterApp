@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in closure #2 in CharactersView.nextPageView.getter:CharactersView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CharacterViewModel.getCharacters():CharacterViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "characters.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
